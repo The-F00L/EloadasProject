@@ -17,6 +17,17 @@ class eladasCtorTest
     }
 
     [TestCase]
+    public void Fogastest()
+    {
+        Eloadas e = new Eloadas(-5, 5);
+        /*
+                argument exceton test         
+         */
+
+    }
+
+
+    [TestCase]
     public void SzabadHelyTest()
     {
         Eloadas e = new Eloadas(5, 5);
